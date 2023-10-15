@@ -1,0 +1,17 @@
+[
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"./generated/Ch02And"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Ch02And|Ch02And>io_led",
+    "sources":[
+      "~Ch02And|Ch02And>io_sw"
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+chisel/*/.idea
+chisel/*/.bsp
+chisel/*/project
+chisel/*/target
+chisel/*/test_run_dir
